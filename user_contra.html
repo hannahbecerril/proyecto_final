@@ -1,0 +1,30 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="efectos.css" rel="stylesheet" type="text/css">
+	<script src="validar.js" type="text/JavaScript"> </script>
+	<script src="campos.js" type="text/JavaScript"> </script>
+	<title>Du maquillage</title>
+</head>
+<body><center>
+	<body background="backgroung.png">
+	<br><br><br><br><br><br><br><br><br><br>
+	<form name="user_contrasena">
+	<table border="3" width="80%" cellspacing="5" cellpadding="5">
+		<tr bgcolor="lightpink" align="center">
+			<td colspan="5"><h2><font color ="black">Indica tu user y contraseña</font></h2>
+				<tr bgcolor="lightpink" align="center">
+			<td><p>Indica tu user name</p></td>
+				<td><input name="user" type="text" maxlength="10" class="campo" onClick="campos_azules()" > </td>
+			<tr bgcolor="lightpink" align="center">
+			<td><p>Indica tu contraseña</p></td>
+			<td><input name="contra" type="password" maxlength="10" class="campo" onClick="campos_azules()"> <img src="ojo_abierto.png" width="15" height="15" onClick="mostrar()"> <img src="ojo_cerrado.png" width="15" height="15" onClick="ocultar()"></td> </td>
+			</tr>
+		<br><br><br>
+		<td>
+		<input name="b_iniciar" type="button" class="boton_azul" value="Iniciar" onClick="enviar()"> 
+	</td>
+</tr>
+</form>
+</table>
+</center></body></html>
